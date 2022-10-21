@@ -95,3 +95,22 @@ header a {
   Link underline */
 }
 /* END HEADER STYLES*/
+
+.grid {
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 {grid-area: 1 / 2 / 4 / 5; }
+.half1 {
+  background-color: blue;
+  width: auto;
+  height: 150px;
+}
+.half2{
+  background-color: purple;
+  width: auto;
+}

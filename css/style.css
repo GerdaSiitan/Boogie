@@ -111,6 +111,48 @@ grid-row-gap: 0px;
   height: 150px;
 }
 .half2{
-  background-color: purple;
+  background-color: pink;
   width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 3fr) 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.half2 div {
+  border: 2px solid black;
+  padding: 2em;
+}
+.box {
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F1E8E3;
+}
+.pink{
+  color: #F09BD2;
+}
+.green{
+  color: #30C18A;
+}
+.btn {
+  padding: 8px 16px;
+  color: white;
+  width: 100px;
+
+}
+.btn-pink{
+  background-color:  #F09BD2;
+}
+.btn-green{
+  background-color: #30C18A;
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 3fr) 1fr;
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
 }

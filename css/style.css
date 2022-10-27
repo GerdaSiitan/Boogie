@@ -120,7 +120,7 @@ grid-row-gap: 0px;
   grid-row-gap: 0px;
 }
 .half2 div {
-  border: 2px solid black;
+  border: 2px
   padding: 2em;
 }
 .box {
@@ -147,6 +147,9 @@ grid-row-gap: 0px;
 }
 .btn-green{
   background-color: #30C18A;
+}
+.btn-pink2{
+  background-color: #FAC0BF;
 }
 
 .parent {
